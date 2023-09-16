@@ -20,7 +20,8 @@ def Ternary_Search(arr,i,j,key):
 arr = [20,25,47,56,63,65,79,82]
 i = 0
 j = len(arr)-1
-key = 20
+# key = 79
+key = int(input("Enter number to be found: "))
 Result = Ternary_Search(arr,i,j,key)
 print(Result)
 
